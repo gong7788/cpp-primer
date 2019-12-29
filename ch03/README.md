@@ -21,3 +21,15 @@ Exercise 3.7
 Using `char c`, result won't change since c is a copy of character in `s`. We should use `char &c`.
 `string s("a string.");
 for (char c : s) c = 'X';` 
+
+[Exercise 3.8](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_8.cpp)
+---
+Exercise 3.9
+> What does the following program do? Is it valid? If not, why not?
+
+
+`string s;`
+`cout << s[0] << endl;` 
+
+
+No, since `s` can be empty. 
