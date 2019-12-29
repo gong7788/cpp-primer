@@ -27,6 +27,7 @@ for (char c : s) c = 'X';
 [Exercise 3.8](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_8.cpp)
 ---
 Exercise 3.9
+---
 > What does the following program do? Is it valid? If not, why not?
 ```
 string s;
@@ -34,3 +35,15 @@ cout << s[0] << endl;
 ```
 
 No, since `s` can be empty. 
+
+[Exercise 3.10](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_10.cpp)
+---
+Exercise 3.11
+---
+> Is the following range for legal? If so, what is the type of c?
+```
+const string s = "Keep out!";
+for (auto &c : s){ /*... */ }
+```
+`c` is a reference of a constant string. So `c` should be a constant char reference. 
+The type of `c` is `const char&`.
