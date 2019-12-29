@@ -10,9 +10,9 @@ Exercise 3.3:
  
 Exercise 3.4: [part_a](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_4a.cpp) | [part_b](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_4b.cpp)
 ----
-[Exercise 3.5]([part_a](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_2a.cpp) | [part_b](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_5.cpp))
+Exercise 3.5: [part_a](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_5a.cpp) | [part_b](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_5b.cpp)
 ----
-Exercise 3.6
+[Exercise 3.6](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_6.cpp)
 ---
 Exercise 3.7
 ---
