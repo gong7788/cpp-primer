@@ -1,4 +1,6 @@
-Chapter 3
+# Chapter 3
+
+String
 =======
 Exercise 3.2: [part_a](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_2a.cpp) | [part_b](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_2b.cpp)
 -----
@@ -47,3 +49,38 @@ for (auto &c : s){ /*... */ }
 ```
 `c` is a reference of a constant string. So `c` should be a constant char reference. 
 The type of `c` is `const char&`.
+
+Vector 
+===
+Exercise 3.12
+---
+> Which, if any, of the following vector definitions are in error? For those that are legal, explain what the definition does. For those that are not legal, explain why they are illegal.
+```
+vector<vector<int>> ivec;         // legal, vector of vector
+vector<string> svec = ivec;       // illegal, types are different
+vector<string> svec(10, "null");  // legal. svec has 10 string "null". 
+```
+
+Exercise 3.13
+---
+```
+vector<int> v1;         // size:0,  no values.
+vector<int> v2(10);     // size:10, value:0
+vector<int> v3(10, 42); // size:10, value:42
+vector<int> v4{ 10 };     // size:1,  value:10
+vector<int> v5{ 10, 42 }; // size:2,  value:10, 42
+vector<string> v6{ 10 };  // size:10, value:""
+vector<string> v7{ 10, "hi" };  // size:10, value:"hi"
+```
+
+[Exercise 3.14](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_14.cpp)
+---
+[Exercise 3.15](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_15.cpp)
+---
+Exercise 3.16
+---
+Skip 
+
+
+[Exercise 3.17](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_17.cpp)
+---
