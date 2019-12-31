@@ -84,3 +84,39 @@ Skip
 
 [Exercise 3.17](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_17.cpp)
 ---
+
+[Exercise 3.20](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_20.cpp)
+---
+
+Iterator
+===
+
+[Exercise 3.22](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_22.cpp)
+---
+
+[Exercise 3.24](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_24.cpp)
+---
+
+[Exercise 3.25](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_25.cpp)
+---
+
+Exercise 3.26
+---
+> In the binary search program on page 112, why did we write mid=beg+(end-beg)/2; instead of mid=(beg+end) /2;?
+
+Because iterator doesn't have `iter1 + iter2` function
+
+Exercise 3.28
+---
+> What are the values in the following arrays?
+
+```
+string sa[10];      //null
+int ia[10];         //0
+
+int main() 
+{
+    string sa2[10]; //null
+    int ia2[10];    //undefined
+}
+```
