@@ -106,6 +106,8 @@ Exercise 3.26
 
 Because iterator doesn't have `iter1 + iter2` function
 
+# Arrays
+
 Exercise 3.28
 ---
 > What are the values in the following arrays?
@@ -120,3 +122,40 @@ int main()
     int ia2[10];    //undefined
 }
 ```
+
+Exercise 3.34
+---
+> Given that p1 and p2 point to elements in the same array, what does the following code do? Are there values of p1 or p2 that make this code illegal?    
+
+```
+p1 += p2 - p1;
+```
+- `p1` moves `p2 - p1` distance. 
+- It is valid when both `p1` and `p2` are valid. 
+
+Exercise 3.37
+---
+> What does the following program do?
+
+```
+const char ca[] = { 'h', 'e', 'l', 'l', 'o' };
+const char *cp = ca;
+while (*cp) {
+    cout << *cp << endl;
+    ++cp;
+}
+```
+
+It will output all character in array `ca` but `ca` doesn't end with `\0`, it will also print unknow charracter after that memory. 
+
+Exercise 3.38
+---
+> In this section, we noted that it was not only illegal but meaningless to try to add two pointers. Why would adding two pointers be meaningless?
+
+Points store address in the memory, so they are ordinary data which can't be added. 
+
+[Exercise 3.39](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_39.cpp)
+---
+[Exercise 3.40](https://github.com/gong7788/cpp-primer/blob/master/ch03/ex3_40.cpp)
+---
+
